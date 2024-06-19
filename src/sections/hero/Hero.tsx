@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { useRef } from "react";
 import HeroMiniCategory from "./HeroMiniCategory";
+import HeroCategory from "./HeroCategory";
 
 
 const Hero = () => {
@@ -15,8 +16,9 @@ const Hero = () => {
   }, 400);
 
     return (
-      <div className="bg-[#EEEEEE]">
+      <div className="bg-[#EEEEEE] container mx-auto">
         <div className="container p-3 md:px-10">        
+        <HeroCategory/>
           <Swiper
           slidesPerView={1}
           spaceBetween={10}
@@ -30,11 +32,14 @@ const Hero = () => {
             modules={[Pagination, Navigation, Autoplay]}
             className="mySwiper w-full"
           >            
-            <SwiperSlide className="w-full rounded-md">
-                  <img className="w-full rounded-md mx-auto" src="https://picsum.photos/id/139/300/250" alt="" /> 
+            <SwiperSlide className="w-full  rounded-md">
+                  <img className="w-full h-[220px] md:h-[480px] rounded-md mx-auto" src="https://picsum.photos/id/132/300/250" alt="" /> 
             </SwiperSlide>
             <SwiperSlide className="w-full rounded-md">
-                  <img className="w-full rounded-md mx-auto" src="https://picsum.photos/id/139/300/250" alt="" /> 
+                  <img className="w-full bg-cover h-[220px] md:h-[480px] rounded-md mx-auto" src="https://picsum.photos/id/139/300/250" alt="" /> 
+            </SwiperSlide>
+            <SwiperSlide className="w-full rounded-md">
+                  <img className="w-full  h-[220px] md:h-[480px] rounded-md mx-auto" src="https://picsum.photos/id/139/300/250" alt="" /> 
             </SwiperSlide>
           </Swiper>   
           <HeroMiniCategory/>       

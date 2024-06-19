@@ -1,7 +1,13 @@
+import React from "react";
 import { IoIosSearch } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 
-const HeaderSearchModal = ({setOpenSearch, showSearchModal}) => { 
+interface HeaderSearchModalProps {
+    setOpenSearch: boolean,
+    showSearchModal: (open: boolean) => void
+}
+
+const HeaderSearchModal: React.FC<HeaderSearchModalProps> = ({setOpenSearch, showSearchModal}) => { 
     return (
         <div className={setOpenSearch?"search-mini fixed transition-all z-10 duration-500 w-full h-full top-0 right-0 bg-slate-50":"transition-all w-0 h-full"}>
                     <div className={setOpenSearch?"search-wrap-mini":"hidden"}>
