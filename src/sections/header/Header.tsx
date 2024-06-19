@@ -124,7 +124,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <HeaderSearchModal openSearch={openSearch} showSearchModal={setOpenSearch}/>
+                <HeaderSearchModal setOpenSearch={openSearch} showSearchModal={setOpenSearch}/>
                 <HeaderMenu openMenu={openMenu} showMenu={setOpenMenu}/>
             </div>
         </header>
