@@ -1,10 +1,10 @@
 import { Link, useNavigate } from "react-router-dom";
-import Logo from '../assets/images/Shopify.jpg'
+import Logo from '../../assets/images/Shopify.jpg'
 import { IoIosSearch } from "react-icons/io";
 import { FiUser } from "react-icons/fi";
 import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { IoIosMenu } from "react-icons/io";
-import'./style.css'
+import'../../components/style.css'
 import HeaderMenu from "./HeaderMenu";
 import { useRef, useState } from "react";
 import HeaderSearchModal from "./HeaderSearchModal";
@@ -13,7 +13,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { LuUser } from "react-icons/lu";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoIosArrowDown } from "react-icons/io";
-import Category from "./Category";
+import Category from "../../components/Category";
 
 const Header = () => {  
     const [openMenu, setOpenMenu] = useState<boolean>(false)

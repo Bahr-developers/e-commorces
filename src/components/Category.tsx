@@ -158,7 +158,7 @@
       return (
           <div ref={category} className="absolute w-[94%] ml-12 flex items-start opacity-0">
             <div className="category-show z-10 w-[18%] mt-[2px] border transition-all bg-white container ">
-                    {data.length && data.map(ctg => {
+                    {data?.length && data.map(ctg => {
                         return <div key={ctg.id} onMouseOver={()=>handleSubCategory(ctg.id)}>
                         <hr />
                             <div className="categories-child p-2 flex gap-x-5 items-center cursor-pointer justify-between ps-5 hover:text-[#378CE7]">
@@ -170,7 +170,7 @@
                     })}             
             </div>
             <ul className="subcategory mt-[3.5px] bg-white z-10 px-10">
-                  {subCategories?.subtitle.length &&
+                  {subCategories?.subtitle?.length &&
                           subCategories.subtitle.map((sub) => {
                             return (
                               <li key={sub.id} className="p-2">
