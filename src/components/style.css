@@ -4,19 +4,7 @@
 .praduct-info{
     transform: translateX(50px);
 }
-.praduct-info-extra{
-    display: none;
-}
-.praduct-card:hover{
-    height: 520px;
-    /* padding-bottom: 70px; */
-    position: relative;
-    z-index: 1;
-}
 .praduct-card:hover .praduct-info{
     transform: translateX(0px);
     transition: all ease-in 0.3s;
-}
-.praduct-card:hover .praduct-info-extra{
-    display: block;
 }

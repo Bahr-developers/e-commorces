@@ -34,11 +34,6 @@ const PraducrCard = () => {
                     </div>
                 </div>
                 <button className="border w-full mt-3 block p-2 rounded-md uppercase font-semibold hover:bg-[#10439F] hover:text-white transition-all border-[#10439F] text-[15px] ">Add to card</button>
-                <ul className="praduct-info-extra bg-white absolute hidden md:block"> 
-                    <li>● RAM: 16GB</li>
-                    <li>● Hard Drive: 256GB SSD</li>
-                    <li>● Screen Size: 13.3 inches</li>
-                </ul>
         </div>
     );
 };
