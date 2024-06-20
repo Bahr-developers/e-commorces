@@ -15,7 +15,7 @@ const Hero = () => {
   }, 400);
 
     return (
-      <div className="bg-[#EEEEEE]">
+      <div className="bg-[#EEEEEE] container mx-auto">
         <div className="container p-3 md:px-10">        
           <Swiper
           slidesPerView={1}
@@ -31,10 +31,10 @@ const Hero = () => {
             className="mySwiper w-full"
           >            
             <SwiperSlide className="w-full rounded-md">
-                  <img className="w-full rounded-md mx-auto" src="https://picsum.photos/id/139/300/250" alt="" /> 
+                  <img className="w-full h-[450px] rounded-md mx-auto" src="https://picsum.photos/id/139/300/250" alt="" /> 
             </SwiperSlide>
             <SwiperSlide className="w-full rounded-md">
-                  <img className="w-full rounded-md mx-auto" src="https://picsum.photos/id/139/300/250" alt="" /> 
+                  <img className="w-full h-[450px] rounded-md mx-auto" src="https://picsum.photos/id/139/300/250" alt="" /> 
             </SwiperSlide>
           </Swiper>   
           <HeroMiniCategory/>       
