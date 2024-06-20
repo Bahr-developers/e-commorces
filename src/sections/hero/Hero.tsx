@@ -23,7 +23,7 @@ const Hero = () => {
           slidesPerView={1}
           spaceBetween={10}
           autoplay = {{
-            delay: 2000,
+            delay: 5000,
             disableOnInteraction: false
           }}
             pagination={{
