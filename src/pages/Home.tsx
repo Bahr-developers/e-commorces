@@ -1,13 +1,15 @@
-import Header from "../sections/header/Header";
-import Hero from "../sections/hero/Hero";
-import Praduct from "../sections/praduct/praduct";
+// import Header from "../sections/header/Header";
+// import Hero from "../sections/hero/Hero";
+// import Praduct from "../sections/praduct/praduct";
+import View from "./View";
 
 const Home = () => {
     return (
         <div>
-            <Header/>
+            <View/>
+            {/* <Header/>
             <Hero/>
-            <Praduct/>
+            <Praduct/> */}
         </div>
     );
 };
