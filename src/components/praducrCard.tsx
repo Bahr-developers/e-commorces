@@ -1,5 +1,4 @@
-import { TiStarFullOutline } from "react-icons/ti";
-import { TiStarHalfOutline } from "react-icons/ti";
+
 import image from '../assets/images/phone.webp'
 import { VscHeart } from "react-icons/vsc";
 // import { VscHeartFilled } from "react-icons/vsc";
@@ -21,13 +20,7 @@ const PraducrCard = () => {
                 <div className="image-text">
                     <h2 className="text-slate-400 text-[15px] font-semibold">15 Pro Max</h2>
                     <h2 className="text-[16px] font-semibold h-[50px] overflow-hidden">Apple iPhone 15 Pro Max, 512GB, ...</h2>
-                    <div className="star flex text-yellow-400">
-                        <TiStarFullOutline/>
-                        <TiStarFullOutline/>
-                        <TiStarFullOutline/>
-                        <TiStarFullOutline/>
-                        <TiStarHalfOutline/>
-                    </div>
+                    
                     <div className="price-praduct flex gap-x-2">
                         <p className="text-red-500 font-medium text-4">$699.99</p>
                         <p className="text-slate-400 line-through font-medium text-4">$949.99</p>
